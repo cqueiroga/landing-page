@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+<div id="nav-hero-container">
 <!-- Navigation -->
 <nav>
     <div id="nav-container">
-        <div id="logo">Header Logo</div>
-        <ul>
+        <img id="logo" src="images/logo.png" alt="Site Logo">
+        <ul class="nav-links">
             <li><a href="url">header link one</a></li>
             <li><a href="url">header link two</a></li>
             <li><a href="url">header link three</a></li>
@@ -19,12 +20,17 @@
 </nav>
 
 <!-- Hero section -->
-<div id="hero-continer">
-    <h1>This website is awsome</h1>
-    <h5>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</h5>
-    <button id="hero-signup-btn">Sign up</button>
+<div id="hero-container">
+    <div id="hero-container-left">
+        <h1>This website is awesome</h1>
+        <h5>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</h5>
+        <button id="hero-signup-btn">Sign up</button>
+    </div>
 
-    <img id="hero-img" src="heroimg.png" alt="Hero Image">
+    <div id="hero-container-right">
+    <img id="hero-img" src="images/heroimg.png" alt="Hero Image">
+    </div>
+</div>
 </div>
 
 <!-- 4 Images/thumbnail section -->

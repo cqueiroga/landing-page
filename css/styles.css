@@ -112,3 +112,27 @@ body {
 #tn1-container, #tn2-container, #tn3-container, #tn4-container {
     margin: 10px;
 }
+
+#testimonial-background {
+    background-color: #E5E7EB;
+}
+
+#testimonial-container {
+    width: 860px;
+    margin: auto;
+    padding: 65px 0px;
+    color: #1F2937;
+}
+
+#testimonial {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+#testimonial-signature {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+}

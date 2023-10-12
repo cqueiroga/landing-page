@@ -3,19 +3,19 @@
     padding: 0
 }
 
-html {
-    background-color: #1F2937;
-}
-
 body {
-    width: 860px;
     margin: auto;
-    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#nav-hero-container {
+#nav-hero-background {
     color: white;
+    background-color: #1F2937;
+}
+
+#nav-hero-container {
+    margin: auto;
+    width: 860px;
 }
 
 #nav-container {
@@ -78,4 +78,37 @@ body {
 
 #hero-img {
     width: 400px;
+}
+
+#thumbnail-container {
+    width: 860px;
+    margin: auto;
+}
+
+#thumbnail-container h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px; 
+}
+
+#thumbnail-row {
+    display: flex;
+    gap: 20px;
+}
+
+#thumbnail-row img {
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#thumbnail-row p {
+    text-align: center;
+}
+
+#tn1-container, #tn2-container, #tn3-container, #tn4-container {
+    margin: 10px;
 }
